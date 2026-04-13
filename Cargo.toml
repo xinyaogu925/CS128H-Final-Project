@@ -1,0 +1,12 @@
+[package]
+name = "echosafe"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+symphonia = { version = "0.5", features = ["all"] }
+
+clap = { version = "4.4", features = ["derive"] }
+
+hound = "3.5"
