@@ -10,3 +10,6 @@ symphonia = { version = "0.5", features = ["all"] }
 clap = { version = "4.4", features = ["derive"] }
 
 hound = "3.5"
+rustfft = "6.1"       
+realfft = "3.3"      
+num-complex = "0.4"   
