@@ -4,12 +4,15 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-
+# Audio decoding
 symphonia = { version = "0.5", features = ["all"] }
-
-clap = { version = "4.4", features = ["derive"] }
-
+# WAV encoding
 hound = "3.5"
-rustfft = "6.1"       
-realfft = "3.3"      
-num-complex = "0.4"   
+# CLI parsing
+clap = { version = "4.4", features = ["derive"] }
+# FFT for spectral analysis
+rustfft = "6.1"
+realfft = "3.3"
+num-complex = "0.4"
+# Additional utilities
+anyhow = "1.0"
