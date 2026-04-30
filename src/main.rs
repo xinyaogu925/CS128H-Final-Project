@@ -161,5 +161,6 @@ fn main() {
         writer.write_sample(sample).unwrap();
     }
 
+    
     println!("Success! File saved to: {}", args.output);
 }
