@@ -1,1 +1,949 @@
-    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.04s
+   0.021898083s  INFO prepare_target{force=false package_id=echosafe v0.1.0 (/Users/guxinya/Desktop/CS128H-Final-Project) target="echosafe"}: cargo::core::compiler::fingerprint: dependency on `utf8parse` is newer than we are 1777671239.413196477s > 1777671239.271360398s "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-1.0.0"
+   0.023234708s  INFO prepare_target{force=false package_id=echosafe v0.1.0 (/Users/guxinya/Desktop/CS128H-Final-Project) target="echosafe"}: cargo::core::compiler::fingerprint: dependency on `strsim` is newer than we are 1777671239.352539294s > 1777671239.298320543s "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/clap_builder-4.6.0"
+   0.023483750s  INFO prepare_target{force=false package_id=echosafe v0.1.0 (/Users/guxinya/Desktop/CS128H-Final-Project) target="echosafe"}: cargo::core::compiler::fingerprint: dependency on `clap_derive` is newer than we are 1777671258.878057387s > 1777671239.279739209s "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/clap-4.6.0"
+   0.023577500s  INFO prepare_target{force=false package_id=echosafe v0.1.0 (/Users/guxinya/Desktop/CS128H-Final-Project) target="echosafe"}: cargo::core::compiler::fingerprint: dependency on `build_script_build` is newer than we are 1777671257.273304411s > 1777671239.328237280s "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/num-traits-0.2.19"
+   0.023955000s  INFO prepare_target{force=false package_id=echosafe v0.1.0 (/Users/guxinya/Desktop/CS128H-Final-Project) target="echosafe"}: cargo::core::compiler::fingerprint: dependency on `symphonia_metadata` is newer than we are 1777671239.398591193s > 1777671239.356783721s "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/symphonia-bundle-flac-0.5.5"
+   0.023962500s  INFO prepare_target{force=false package_id=echosafe v0.1.0 (/Users/guxinya/Desktop/CS128H-Final-Project) target="echosafe"}: cargo::core::compiler::fingerprint: dependency on `symphonia_metadata` is newer than we are 1777671239.398591193s > 1777671239.357281305s "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/symphonia-bundle-mp3-0.5.5"
+   0.023969083s  INFO prepare_target{force=false package_id=echosafe v0.1.0 (/Users/guxinya/Desktop/CS128H-Final-Project) target="echosafe"}: cargo::core::compiler::fingerprint: dependency on `symphonia_core` is newer than we are 1777671239.375062097s > 1777671239.365682075s "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/symphonia-codec-aac-0.5.5"
+   0.023974416s  INFO prepare_target{force=false package_id=echosafe v0.1.0 (/Users/guxinya/Desktop/CS128H-Final-Project) target="echosafe"}: cargo::core::compiler::fingerprint: dependency on `symphonia_core` is newer than we are 1777671239.375062097s > 1777671239.365804742s "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/symphonia-codec-adpcm-0.5.5"
+   0.023980583s  INFO prepare_target{force=false package_id=echosafe v0.1.0 (/Users/guxinya/Desktop/CS128H-Final-Project) target="echosafe"}: cargo::core::compiler::fingerprint: dependency on `symphonia_core` is newer than we are 1777671239.375062097s > 1777671239.366452160s "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/symphonia-codec-alac-0.5.5"
+   0.023986625s  INFO prepare_target{force=false package_id=echosafe v0.1.0 (/Users/guxinya/Desktop/CS128H-Final-Project) target="echosafe"}: cargo::core::compiler::fingerprint: dependency on `symphonia_core` is newer than we are 1777671239.375062097s > 1777671239.367509121s "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/symphonia-codec-pcm-0.5.5"
+   0.023993583s  INFO prepare_target{force=false package_id=echosafe v0.1.0 (/Users/guxinya/Desktop/CS128H-Final-Project) target="echosafe"}: cargo::core::compiler::fingerprint: dependency on `symphonia_utils_xiph` is newer than we are 1777671239.401473200s > 1777671239.369435125s "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/symphonia-codec-vorbis-0.5.5"
+   0.024000083s  INFO prepare_target{force=false package_id=echosafe v0.1.0 (/Users/guxinya/Desktop/CS128H-Final-Project) target="echosafe"}: cargo::core::compiler::fingerprint: dependency on `symphonia_metadata` is newer than we are 1777671239.398591193s > 1777671239.383283532s "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/symphonia-format-caf-0.5.5"
+   0.024005833s  INFO prepare_target{force=false package_id=echosafe v0.1.0 (/Users/guxinya/Desktop/CS128H-Final-Project) target="echosafe"}: cargo::core::compiler::fingerprint: dependency on `symphonia_metadata` is newer than we are 1777671239.398591193s > 1777671239.390149673s "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/symphonia-format-isomp4-0.5.5"
+   0.024012125s  INFO prepare_target{force=false package_id=echosafe v0.1.0 (/Users/guxinya/Desktop/CS128H-Final-Project) target="echosafe"}: cargo::core::compiler::fingerprint: dependency on `symphonia_metadata` is newer than we are 1777671239.398591193s > 1777671239.390434674s "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/symphonia-format-mkv-0.5.5"
+   0.024018250s  INFO prepare_target{force=false package_id=echosafe v0.1.0 (/Users/guxinya/Desktop/CS128H-Final-Project) target="echosafe"}: cargo::core::compiler::fingerprint: dependency on `symphonia_metadata` is newer than we are 1777671239.398591193s > 1777671239.397145315s "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/symphonia-format-ogg-0.5.5"
+   0.024048166s  INFO prepare_target{force=false package_id=echosafe v0.1.0 (/Users/guxinya/Desktop/CS128H-Final-Project) target="echosafe"}: cargo::core::compiler::fingerprint: dependency on `symphonia_metadata` is newer than we are 1777671239.398591193s > 1777671239.397320149s "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/symphonia-format-riff-0.5.5"
+   0.024117875s  INFO prepare_target{force=false package_id=echosafe v0.1.0 (/Users/guxinya/Desktop/CS128H-Final-Project) target="echosafe"}: cargo::core::compiler::fingerprint: fingerprint error for echosafe v0.1.0 (/Users/guxinya/Desktop/CS128H-Final-Project)/Check { test: false }/TargetInner { name: "echosafe", doc: true, ..: with_path("/Users/guxinya/Desktop/CS128H-Final-Project/src/main.rs", Edition2021) }
+   0.024149208s  INFO prepare_target{force=false package_id=echosafe v0.1.0 (/Users/guxinya/Desktop/CS128H-Final-Project) target="echosafe"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/guxinya/Desktop/CS128H-Final-Project/target/debug/.fingerprint/echosafe-c16ab37ab96fa751/bin-echosafe`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+   0.036341333s  INFO prepare_target{force=false package_id=aes-gcm v0.10.3 target="aes_gcm"}: cargo::core::compiler::fingerprint: fingerprint error for aes-gcm v0.10.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("aes_gcm", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aes-gcm-0.10.3/src/lib.rs", Edition2021) }
+   0.036357833s  INFO prepare_target{force=false package_id=aes-gcm v0.10.3 target="aes_gcm"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/guxinya/Desktop/CS128H-Final-Project/target/debug/.fingerprint/aes-gcm-2de8d144bc92459d/lib-aes_gcm`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+   0.036574750s  INFO prepare_target{force=false package_id=aead v0.5.2 target="aead"}: cargo::core::compiler::fingerprint: fingerprint error for aead v0.5.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("aead", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aead-0.5.2/src/lib.rs", Edition2021) }
+   0.036578625s  INFO prepare_target{force=false package_id=aead v0.5.2 target="aead"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/guxinya/Desktop/CS128H-Final-Project/target/debug/.fingerprint/aead-3f73e98dfb484839/lib-aead`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   9: cargo::ops::cargo_compile::compile_ws
+  10: cargo::ops::cargo_compile::compile_with_exec
+  11: cargo::ops::cargo_compile::compile
+  12: cargo::commands::check::exec
+  13: <cargo::cli::Exec>::exec
+  14: cargo::main
+  15: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  16: std::rt::lang_start::<()>::{closure#0}
+  17: std::rt::lang_start_internal
+  18: _main
+   0.036723416s  INFO prepare_target{force=false package_id=crypto-common v0.1.7 target="crypto_common"}: cargo::core::compiler::fingerprint: fingerprint error for crypto-common v0.1.7/Check { test: false }/TargetInner { ..: lib_target("crypto_common", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/crypto-common-0.1.7/src/lib.rs", Edition2018) }
+   0.036729583s  INFO prepare_target{force=false package_id=crypto-common v0.1.7 target="crypto_common"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/guxinya/Desktop/CS128H-Final-Project/target/debug/.fingerprint/crypto-common-e04cbbf1ed81a011/lib-crypto_common`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_ws
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+  19: _main
+   0.036891375s  INFO prepare_target{force=false package_id=generic-array v0.14.7 target="generic_array"}: cargo::core::compiler::fingerprint: fingerprint error for generic-array v0.14.7/Check { test: false }/TargetInner { ..: lib_target("generic_array", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/generic-array-0.14.7/src/lib.rs", Edition2015) }
+   0.036894666s  INFO prepare_target{force=false package_id=generic-array v0.14.7 target="generic_array"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/guxinya/Desktop/CS128H-Final-Project/target/debug/.fingerprint/generic-array-0a4b4297c86131eb/lib-generic_array`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_ws
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+  20: _main
+   0.037149125s  INFO prepare_target{force=false package_id=typenum v1.20.0 target="typenum"}: cargo::core::compiler::fingerprint: fingerprint error for typenum v1.20.0/Check { test: false }/TargetInner { ..: lib_target("typenum", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/typenum-1.20.0/src/lib.rs", Edition2018) }
+   0.037153000s  INFO prepare_target{force=false package_id=typenum v1.20.0 target="typenum"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/guxinya/Desktop/CS128H-Final-Project/target/debug/.fingerprint/typenum-2cb918774e4f2e7b/lib-typenum`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_ws
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  19: std::rt::lang_start::<()>::{closure#0}
+  20: std::rt::lang_start_internal
+  21: _main
+   0.037271750s  INFO prepare_target{force=false package_id=rand_core v0.6.4 target="rand_core"}: cargo::core::compiler::fingerprint: fingerprint error for rand_core v0.6.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rand_core", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_core-0.6.4/src/lib.rs", Edition2018) }
+   0.037275083s  INFO prepare_target{force=false package_id=rand_core v0.6.4 target="rand_core"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/guxinya/Desktop/CS128H-Final-Project/target/debug/.fingerprint/rand_core-67548c7ea6db10c6/lib-rand_core`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_ws
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+  20: _main
+   0.037400458s  INFO prepare_target{force=false package_id=getrandom v0.2.17 target="getrandom"}: cargo::core::compiler::fingerprint: fingerprint error for getrandom v0.2.17/Check { test: false }/TargetInner { ..: lib_target("getrandom", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/getrandom-0.2.17/src/lib.rs", Edition2018) }
+   0.037403500s  INFO prepare_target{force=false package_id=getrandom v0.2.17 target="getrandom"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/guxinya/Desktop/CS128H-Final-Project/target/debug/.fingerprint/getrandom-780dabb59151ac08/lib-getrandom`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_ws
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  19: std::rt::lang_start::<()>::{closure#0}
+  20: std::rt::lang_start_internal
+  21: _main
+   0.037568916s  INFO prepare_target{force=false package_id=libc v0.2.186 target="libc"}: cargo::core::compiler::fingerprint: fingerprint error for libc v0.2.186/Check { test: false }/TargetInner { ..: lib_target("libc", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/libc-0.2.186/src/lib.rs", Edition2021) }
+   0.037572416s  INFO prepare_target{force=false package_id=libc v0.2.186 target="libc"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/guxinya/Desktop/CS128H-Final-Project/target/debug/.fingerprint/libc-2a9797b5d8ae763f/lib-libc`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: cargo::core::compiler::compile
+  12: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  13: cargo::ops::cargo_compile::compile_ws
+  14: cargo::ops::cargo_compile::compile_with_exec
+  15: cargo::ops::cargo_compile::compile
+  16: cargo::commands::check::exec
+  17: <cargo::cli::Exec>::exec
+  18: cargo::main
+  19: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  20: std::rt::lang_start::<()>::{closure#0}
+  21: std::rt::lang_start_internal
+  22: _main
+   0.037807333s  INFO prepare_target{force=false package_id=aes v0.8.4 target="aes"}: cargo::core::compiler::fingerprint: fingerprint error for aes v0.8.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("aes", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aes-0.8.4/src/lib.rs", Edition2021) }
+   0.037810750s  INFO prepare_target{force=false package_id=aes v0.8.4 target="aes"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/guxinya/Desktop/CS128H-Final-Project/target/debug/.fingerprint/aes-05856986cd639f51/lib-aes`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   9: cargo::ops::cargo_compile::compile_ws
+  10: cargo::ops::cargo_compile::compile_with_exec
+  11: cargo::ops::cargo_compile::compile
+  12: cargo::commands::check::exec
+  13: <cargo::cli::Exec>::exec
+  14: cargo::main
+  15: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  16: std::rt::lang_start::<()>::{closure#0}
+  17: std::rt::lang_start_internal
+  18: _main
+   0.037963500s  INFO prepare_target{force=false package_id=cipher v0.4.4 target="cipher"}: cargo::core::compiler::fingerprint: fingerprint error for cipher v0.4.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("cipher", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cipher-0.4.4/src/lib.rs", Edition2021) }
+   0.037966750s  INFO prepare_target{force=false package_id=cipher v0.4.4 target="cipher"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/guxinya/Desktop/CS128H-Final-Project/target/debug/.fingerprint/cipher-e6c933248a32ef0b/lib-cipher`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_ws
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+  19: _main
+   0.038104250s  INFO prepare_target{force=false package_id=inout v0.1.4 target="inout"}: cargo::core::compiler::fingerprint: fingerprint error for inout v0.1.4/Check { test: false }/TargetInner { ..: lib_target("inout", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/inout-0.1.4/src/lib.rs", Edition2021) }
+   0.038107666s  INFO prepare_target{force=false package_id=inout v0.1.4 target="inout"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/guxinya/Desktop/CS128H-Final-Project/target/debug/.fingerprint/inout-e268a9daecca4f99/lib-inout`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_ws
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+  20: _main
+   0.038234583s  INFO prepare_target{force=false package_id=cpufeatures v0.2.17 target="cpufeatures"}: cargo::core::compiler::fingerprint: fingerprint error for cpufeatures v0.2.17/Check { test: false }/TargetInner { ..: lib_target("cpufeatures", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/cpufeatures-0.2.17/src/lib.rs", Edition2018) }
+   0.038237708s  INFO prepare_target{force=false package_id=cpufeatures v0.2.17 target="cpufeatures"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/guxinya/Desktop/CS128H-Final-Project/target/debug/.fingerprint/cpufeatures-8070a33a7798da19/lib-cpufeatures`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_ws
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+  19: _main
+   0.038356041s  INFO prepare_target{force=false package_id=ctr v0.9.2 target="ctr"}: cargo::core::compiler::fingerprint: fingerprint error for ctr v0.9.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ctr", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ctr-0.9.2/src/lib.rs", Edition2021) }
+   0.038359041s  INFO prepare_target{force=false package_id=ctr v0.9.2 target="ctr"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/guxinya/Desktop/CS128H-Final-Project/target/debug/.fingerprint/ctr-95991fc9b670005e/lib-ctr`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   9: cargo::ops::cargo_compile::compile_ws
+  10: cargo::ops::cargo_compile::compile_with_exec
+  11: cargo::ops::cargo_compile::compile
+  12: cargo::commands::check::exec
+  13: <cargo::cli::Exec>::exec
+  14: cargo::main
+  15: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  16: std::rt::lang_start::<()>::{closure#0}
+  17: std::rt::lang_start_internal
+  18: _main
+   0.038484666s  INFO prepare_target{force=false package_id=ghash v0.5.1 target="ghash"}: cargo::core::compiler::fingerprint: fingerprint error for ghash v0.5.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("ghash", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ghash-0.5.1/src/lib.rs", Edition2021) }
+   0.038487708s  INFO prepare_target{force=false package_id=ghash v0.5.1 target="ghash"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/guxinya/Desktop/CS128H-Final-Project/target/debug/.fingerprint/ghash-fe13ad1605ebf0ef/lib-ghash`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   9: cargo::ops::cargo_compile::compile_ws
+  10: cargo::ops::cargo_compile::compile_with_exec
+  11: cargo::ops::cargo_compile::compile
+  12: cargo::commands::check::exec
+  13: <cargo::cli::Exec>::exec
+  14: cargo::main
+  15: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  16: std::rt::lang_start::<()>::{closure#0}
+  17: std::rt::lang_start_internal
+  18: _main
+   0.038627416s  INFO prepare_target{force=false package_id=opaque-debug v0.3.1 target="opaque_debug"}: cargo::core::compiler::fingerprint: fingerprint error for opaque-debug v0.3.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("opaque_debug", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/opaque-debug-0.3.1/src/lib.rs", Edition2018) }
+   0.038630666s  INFO prepare_target{force=false package_id=opaque-debug v0.3.1 target="opaque_debug"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/guxinya/Desktop/CS128H-Final-Project/target/debug/.fingerprint/opaque-debug-f67a9786031d6e6c/lib-opaque_debug`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_ws
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+  19: _main
+   0.038727708s  INFO prepare_target{force=false package_id=polyval v0.6.2 target="polyval"}: cargo::core::compiler::fingerprint: fingerprint error for polyval v0.6.2/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("polyval", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/polyval-0.6.2/src/lib.rs", Edition2021) }
+   0.038731041s  INFO prepare_target{force=false package_id=polyval v0.6.2 target="polyval"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/guxinya/Desktop/CS128H-Final-Project/target/debug/.fingerprint/polyval-4921db85d8b805aa/lib-polyval`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_ws
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+  19: _main
+   0.038916125s  INFO prepare_target{force=false package_id=universal-hash v0.5.1 target="universal_hash"}: cargo::core::compiler::fingerprint: fingerprint error for universal-hash v0.5.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("universal_hash", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/universal-hash-0.5.1/src/lib.rs", Edition2021) }
+   0.038919958s  INFO prepare_target{force=false package_id=universal-hash v0.5.1 target="universal_hash"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/guxinya/Desktop/CS128H-Final-Project/target/debug/.fingerprint/universal-hash-69d47df7ed5c9acc/lib-universal_hash`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_ws
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+  20: _main
+   0.039066416s  INFO prepare_target{force=false package_id=subtle v2.6.1 target="subtle"}: cargo::core::compiler::fingerprint: fingerprint error for subtle v2.6.1/Check { test: false }/TargetInner { ..: lib_target("subtle", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/subtle-2.6.1/src/lib.rs", Edition2018) }
+   0.039069541s  INFO prepare_target{force=false package_id=subtle v2.6.1 target="subtle"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/guxinya/Desktop/CS128H-Final-Project/target/debug/.fingerprint/subtle-3323bbcac9d45529/lib-subtle`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: cargo::core::compiler::compile
+  11: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  12: cargo::ops::cargo_compile::compile_ws
+  13: cargo::ops::cargo_compile::compile_with_exec
+  14: cargo::ops::cargo_compile::compile
+  15: cargo::commands::check::exec
+  16: <cargo::cli::Exec>::exec
+  17: cargo::main
+  18: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  19: std::rt::lang_start::<()>::{closure#0}
+  20: std::rt::lang_start_internal
+  21: _main
+   0.039319791s  INFO prepare_target{force=false package_id=argon2 v0.5.3 target="argon2"}: cargo::core::compiler::fingerprint: fingerprint error for argon2 v0.5.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("argon2", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/argon2-0.5.3/src/lib.rs", Edition2021) }
+   0.039323458s  INFO prepare_target{force=false package_id=argon2 v0.5.3 target="argon2"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/guxinya/Desktop/CS128H-Final-Project/target/debug/.fingerprint/argon2-c477be31c9cfd93e/lib-argon2`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+   0.039517375s  INFO prepare_target{force=false package_id=base64ct v1.8.3 target="base64ct"}: cargo::core::compiler::fingerprint: fingerprint error for base64ct v1.8.3/Check { test: false }/TargetInner { ..: lib_target("base64ct", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/base64ct-1.8.3/src/lib.rs", Edition2024) }
+   0.039520833s  INFO prepare_target{force=false package_id=base64ct v1.8.3 target="base64ct"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/guxinya/Desktop/CS128H-Final-Project/target/debug/.fingerprint/base64ct-77258a001955302e/lib-base64ct`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   9: cargo::ops::cargo_compile::compile_ws
+  10: cargo::ops::cargo_compile::compile_with_exec
+  11: cargo::ops::cargo_compile::compile
+  12: cargo::commands::check::exec
+  13: <cargo::cli::Exec>::exec
+  14: cargo::main
+  15: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  16: std::rt::lang_start::<()>::{closure#0}
+  17: std::rt::lang_start_internal
+  18: _main
+   0.039664833s  INFO prepare_target{force=false package_id=blake2 v0.10.6 target="blake2"}: cargo::core::compiler::fingerprint: fingerprint error for blake2 v0.10.6/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("blake2", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/blake2-0.10.6/src/lib.rs", Edition2018) }
+   0.039667958s  INFO prepare_target{force=false package_id=blake2 v0.10.6 target="blake2"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/guxinya/Desktop/CS128H-Final-Project/target/debug/.fingerprint/blake2-6acee52a8370a7f3/lib-blake2`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   9: cargo::ops::cargo_compile::compile_ws
+  10: cargo::ops::cargo_compile::compile_with_exec
+  11: cargo::ops::cargo_compile::compile
+  12: cargo::commands::check::exec
+  13: <cargo::cli::Exec>::exec
+  14: cargo::main
+  15: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  16: std::rt::lang_start::<()>::{closure#0}
+  17: std::rt::lang_start_internal
+  18: _main
+   0.039831041s  INFO prepare_target{force=false package_id=digest v0.10.7 target="digest"}: cargo::core::compiler::fingerprint: fingerprint error for digest v0.10.7/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("digest", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/digest-0.10.7/src/lib.rs", Edition2018) }
+   0.039834125s  INFO prepare_target{force=false package_id=digest v0.10.7 target="digest"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/guxinya/Desktop/CS128H-Final-Project/target/debug/.fingerprint/digest-4d9125c3814ec6c2/lib-digest`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_ws
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+  19: _main
+   0.040010708s  INFO prepare_target{force=false package_id=block-buffer v0.10.4 target="block_buffer"}: cargo::core::compiler::fingerprint: fingerprint error for block-buffer v0.10.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("block_buffer", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/block-buffer-0.10.4/src/lib.rs", Edition2018) }
+   0.040014000s  INFO prepare_target{force=false package_id=block-buffer v0.10.4 target="block_buffer"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/guxinya/Desktop/CS128H-Final-Project/target/debug/.fingerprint/block-buffer-ce673c9909871336/lib-block_buffer`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_ws
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+  20: _main
+   0.040148791s  INFO prepare_target{force=false package_id=password-hash v0.5.0 target="password_hash"}: cargo::core::compiler::fingerprint: fingerprint error for password-hash v0.5.0/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("password_hash", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/password-hash-0.5.0/src/lib.rs", Edition2021) }
+   0.040151958s  INFO prepare_target{force=false package_id=password-hash v0.5.0 target="password_hash"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/guxinya/Desktop/CS128H-Final-Project/target/debug/.fingerprint/password-hash-14a9299b1a848bd7/lib-password_hash`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   9: cargo::ops::cargo_compile::compile_ws
+  10: cargo::ops::cargo_compile::compile_with_exec
+  11: cargo::ops::cargo_compile::compile
+  12: cargo::commands::check::exec
+  13: <cargo::cli::Exec>::exec
+  14: cargo::main
+  15: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  16: std::rt::lang_start::<()>::{closure#0}
+  17: std::rt::lang_start_internal
+  18: _main
+   0.040301916s  INFO prepare_target{force=false package_id=clap v4.6.0 target="clap"}: cargo::core::compiler::fingerprint: fingerprint dirty for clap v4.6.0/Check { test: false }/TargetInner { benched: false, ..: lib_target("clap", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/clap-4.6.0/src/lib.rs", Edition2024) }
+   0.040305166s  INFO prepare_target{force=false package_id=clap v4.6.0 target="clap"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "clap_derive", dep_mtime: FileTime { seconds: 1777671258, nanos: 878057387 }, max_mtime: FileTime { seconds: 1777671239, nanos: 279739209 } })
+   0.040510125s  INFO prepare_target{force=false package_id=clap_builder v4.6.0 target="clap_builder"}: cargo::core::compiler::fingerprint: fingerprint dirty for clap_builder v4.6.0/Check { test: false }/TargetInner { benched: false, ..: lib_target("clap_builder", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/clap_builder-4.6.0/src/lib.rs", Edition2024) }
+   0.040513375s  INFO prepare_target{force=false package_id=clap_builder v4.6.0 target="clap_builder"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "strsim", dep_mtime: FileTime { seconds: 1777671239, nanos: 352539294 }, max_mtime: FileTime { seconds: 1777671239, nanos: 298320543 } })
+   0.040677875s  INFO prepare_target{force=false package_id=anstream v1.0.0 target="anstream"}: cargo::core::compiler::fingerprint: fingerprint dirty for anstream v1.0.0/Check { test: false }/TargetInner { ..: lib_target("anstream", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstream-1.0.0/src/lib.rs", Edition2021) }
+   0.040680916s  INFO prepare_target{force=false package_id=anstream v1.0.0 target="anstream"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "anstyle_parse" })
+   0.040912416s  INFO prepare_target{force=false package_id=anstyle-parse v1.0.0 target="anstyle_parse"}: cargo::core::compiler::fingerprint: fingerprint dirty for anstyle-parse v1.0.0/Check { test: false }/TargetInner { ..: lib_target("anstyle_parse", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/anstyle-parse-1.0.0/src/lib.rs", Edition2021) }
+   0.040915666s  INFO prepare_target{force=false package_id=anstyle-parse v1.0.0 target="anstyle_parse"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "utf8parse", dep_mtime: FileTime { seconds: 1777671239, nanos: 413196477 }, max_mtime: FileTime { seconds: 1777671239, nanos: 271360398 } })
+   0.041617458s  INFO prepare_target{force=false package_id=num-complex v0.4.6 target="num_complex"}: cargo::core::compiler::fingerprint: fingerprint dirty for num-complex v0.4.6/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_complex", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/num-complex-0.4.6/src/lib.rs", Edition2021) }
+   0.041621416s  INFO prepare_target{force=false package_id=num-complex v0.4.6 target="num_complex"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "num_traits" })
+   0.041725708s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="num_traits"}: cargo::core::compiler::fingerprint: fingerprint dirty for num-traits v0.2.19/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_traits", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/num-traits-0.2.19/src/lib.rs", Edition2021) }
+   0.041728750s  INFO prepare_target{force=false package_id=num-traits v0.2.19 target="num_traits"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "build_script_build", dep_mtime: FileTime { seconds: 1777671257, nanos: 273304411 }, max_mtime: FileTime { seconds: 1777671239, nanos: 328237280 } })
+   0.041935208s  INFO prepare_target{force=false package_id=rand v0.8.6 target="rand"}: cargo::core::compiler::fingerprint: fingerprint error for rand v0.8.6/Check { test: false }/TargetInner { ..: lib_target("rand", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand-0.8.6/src/lib.rs", Edition2018) }
+   0.041938166s  INFO prepare_target{force=false package_id=rand v0.8.6 target="rand"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/guxinya/Desktop/CS128H-Final-Project/target/debug/.fingerprint/rand-e914bf02d4b2d7eb/lib-rand`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+   0.042089291s  INFO prepare_target{force=false package_id=rand_chacha v0.3.1 target="rand_chacha"}: cargo::core::compiler::fingerprint: fingerprint error for rand_chacha v0.3.1/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("rand_chacha", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rand_chacha-0.3.1/src/lib.rs", Edition2018) }
+   0.042092500s  INFO prepare_target{force=false package_id=rand_chacha v0.3.1 target="rand_chacha"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/guxinya/Desktop/CS128H-Final-Project/target/debug/.fingerprint/rand_chacha-b77e692684d596bd/lib-rand_chacha`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   9: cargo::ops::cargo_compile::compile_ws
+  10: cargo::ops::cargo_compile::compile_with_exec
+  11: cargo::ops::cargo_compile::compile
+  12: cargo::commands::check::exec
+  13: <cargo::cli::Exec>::exec
+  14: cargo::main
+  15: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  16: std::rt::lang_start::<()>::{closure#0}
+  17: std::rt::lang_start_internal
+  18: _main
+   0.042225041s  INFO prepare_target{force=false package_id=ppv-lite86 v0.2.21 target="ppv_lite86"}: cargo::core::compiler::fingerprint: fingerprint error for ppv-lite86 v0.2.21/Check { test: false }/TargetInner { ..: lib_target("ppv_lite86", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/ppv-lite86-0.2.21/src/lib.rs", Edition2021) }
+   0.042227958s  INFO prepare_target{force=false package_id=ppv-lite86 v0.2.21 target="ppv_lite86"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/guxinya/Desktop/CS128H-Final-Project/target/debug/.fingerprint/ppv-lite86-fffc1f7a1752b90a/lib-ppv_lite86`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  10: cargo::ops::cargo_compile::compile_ws
+  11: cargo::ops::cargo_compile::compile_with_exec
+  12: cargo::ops::cargo_compile::compile
+  13: cargo::commands::check::exec
+  14: <cargo::cli::Exec>::exec
+  15: cargo::main
+  16: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  17: std::rt::lang_start::<()>::{closure#0}
+  18: std::rt::lang_start_internal
+  19: _main
+   0.042346833s  INFO prepare_target{force=false package_id=zerocopy v0.8.48 target="zerocopy"}: cargo::core::compiler::fingerprint: fingerprint error for zerocopy v0.8.48/Check { test: false }/TargetInner { ..: lib_target("zerocopy", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zerocopy-0.8.48/src/lib.rs", Edition2021) }
+   0.042349708s  INFO prepare_target{force=false package_id=zerocopy v0.8.48 target="zerocopy"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/guxinya/Desktop/CS128H-Final-Project/target/debug/.fingerprint/zerocopy-2e83ac393afd2ceb/lib-zerocopy`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: cargo::core::compiler::compile
+   8: cargo::core::compiler::compile
+   9: cargo::core::compiler::compile
+  10: <cargo::core::compiler::build_runner::BuildRunner>::compile
+  11: cargo::ops::cargo_compile::compile_ws
+  12: cargo::ops::cargo_compile::compile_with_exec
+  13: cargo::ops::cargo_compile::compile
+  14: cargo::commands::check::exec
+  15: <cargo::cli::Exec>::exec
+  16: cargo::main
+  17: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  18: std::rt::lang_start::<()>::{closure#0}
+  19: std::rt::lang_start_internal
+  20: _main
+   0.042561833s  INFO prepare_target{force=false package_id=realfft v3.5.0 target="realfft"}: cargo::core::compiler::fingerprint: fingerprint dirty for realfft v3.5.0/Check { test: false }/TargetInner { ..: lib_target("realfft", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/realfft-3.5.0/src/lib.rs", Edition2018) }
+   0.042564916s  INFO prepare_target{force=false package_id=realfft v3.5.0 target="realfft"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "rustfft" })
+   0.042665583s  INFO prepare_target{force=false package_id=rustfft v6.4.1 target="rustfft"}: cargo::core::compiler::fingerprint: fingerprint dirty for rustfft v6.4.1/Check { test: false }/TargetInner { ..: lib_target("rustfft", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/rustfft-6.4.1/src/lib.rs", Edition2021) }
+   0.042668500s  INFO prepare_target{force=false package_id=rustfft v6.4.1 target="rustfft"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "primal_check" })
+   0.042843916s  INFO prepare_target{force=false package_id=num-integer v0.1.46 target="num_integer"}: cargo::core::compiler::fingerprint: fingerprint dirty for num-integer v0.1.46/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("num_integer", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/num-integer-0.1.46/src/lib.rs", Edition2018) }
+   0.042847250s  INFO prepare_target{force=false package_id=num-integer v0.1.46 target="num_integer"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "num_traits" })
+   0.042944000s  INFO prepare_target{force=false package_id=primal-check v0.3.4 target="primal_check"}: cargo::core::compiler::fingerprint: fingerprint dirty for primal-check v0.3.4/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("primal_check", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/primal-check-0.3.4/src/lib.rs", Edition2018) }
+   0.042947583s  INFO prepare_target{force=false package_id=primal-check v0.3.4 target="primal_check"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "num_integer" })
+   0.043105416s  INFO prepare_target{force=false package_id=transpose v0.2.3 target="transpose"}: cargo::core::compiler::fingerprint: fingerprint dirty for transpose v0.2.3/Check { test: false }/TargetInner { name_inferred: true, ..: lib_target("transpose", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/transpose-0.2.3/src/lib.rs", Edition2015) }
+   0.043108625s  INFO prepare_target{force=false package_id=transpose v0.2.3 target="transpose"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "num_integer" })
+   0.043260583s  INFO prepare_target{force=false package_id=symphonia v0.5.5 target="symphonia"}: cargo::core::compiler::fingerprint: fingerprint dirty for symphonia v0.5.5/Check { test: false }/TargetInner { ..: lib_target("symphonia", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/symphonia-0.5.5/src/lib.rs", Edition2018) }
+   0.043264000s  INFO prepare_target{force=false package_id=symphonia v0.5.5 target="symphonia"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDepFingerprint { name: "symphonia_format_ogg" })
+   0.043618041s  INFO prepare_target{force=false package_id=symphonia-bundle-flac v0.5.5 target="symphonia_bundle_flac"}: cargo::core::compiler::fingerprint: fingerprint dirty for symphonia-bundle-flac v0.5.5/Check { test: false }/TargetInner { ..: lib_target("symphonia_bundle_flac", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/symphonia-bundle-flac-0.5.5/src/lib.rs", Edition2018) }
+   0.043621791s  INFO prepare_target{force=false package_id=symphonia-bundle-flac v0.5.5 target="symphonia_bundle_flac"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "symphonia_metadata", dep_mtime: FileTime { seconds: 1777671239, nanos: 398591193 }, max_mtime: FileTime { seconds: 1777671239, nanos: 356783721 } })
+   0.043966375s  INFO prepare_target{force=false package_id=symphonia-bundle-mp3 v0.5.5 target="symphonia_bundle_mp3"}: cargo::core::compiler::fingerprint: fingerprint dirty for symphonia-bundle-mp3 v0.5.5/Check { test: false }/TargetInner { ..: lib_target("symphonia_bundle_mp3", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/symphonia-bundle-mp3-0.5.5/src/lib.rs", Edition2018) }
+   0.043969541s  INFO prepare_target{force=false package_id=symphonia-bundle-mp3 v0.5.5 target="symphonia_bundle_mp3"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "symphonia_metadata", dep_mtime: FileTime { seconds: 1777671239, nanos: 398591193 }, max_mtime: FileTime { seconds: 1777671239, nanos: 357281305 } })
+   0.044124250s  INFO prepare_target{force=false package_id=symphonia-codec-aac v0.5.5 target="symphonia_codec_aac"}: cargo::core::compiler::fingerprint: fingerprint dirty for symphonia-codec-aac v0.5.5/Check { test: false }/TargetInner { ..: lib_target("symphonia_codec_aac", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/symphonia-codec-aac-0.5.5/src/lib.rs", Edition2018) }
+   0.044127583s  INFO prepare_target{force=false package_id=symphonia-codec-aac v0.5.5 target="symphonia_codec_aac"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "symphonia_core", dep_mtime: FileTime { seconds: 1777671239, nanos: 375062097 }, max_mtime: FileTime { seconds: 1777671239, nanos: 365682075 } })
+   0.044254708s  INFO prepare_target{force=false package_id=symphonia-codec-adpcm v0.5.5 target="symphonia_codec_adpcm"}: cargo::core::compiler::fingerprint: fingerprint dirty for symphonia-codec-adpcm v0.5.5/Check { test: false }/TargetInner { ..: lib_target("symphonia_codec_adpcm", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/symphonia-codec-adpcm-0.5.5/src/lib.rs", Edition2018) }
+   0.044258541s  INFO prepare_target{force=false package_id=symphonia-codec-adpcm v0.5.5 target="symphonia_codec_adpcm"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "symphonia_core", dep_mtime: FileTime { seconds: 1777671239, nanos: 375062097 }, max_mtime: FileTime { seconds: 1777671239, nanos: 365804742 } })
+   0.044368416s  INFO prepare_target{force=false package_id=symphonia-codec-alac v0.5.5 target="symphonia_codec_alac"}: cargo::core::compiler::fingerprint: fingerprint dirty for symphonia-codec-alac v0.5.5/Check { test: false }/TargetInner { ..: lib_target("symphonia_codec_alac", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/symphonia-codec-alac-0.5.5/src/lib.rs", Edition2018) }
+   0.044371541s  INFO prepare_target{force=false package_id=symphonia-codec-alac v0.5.5 target="symphonia_codec_alac"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "symphonia_core", dep_mtime: FileTime { seconds: 1777671239, nanos: 375062097 }, max_mtime: FileTime { seconds: 1777671239, nanos: 366452160 } })
+   0.044480916s  INFO prepare_target{force=false package_id=symphonia-codec-pcm v0.5.5 target="symphonia_codec_pcm"}: cargo::core::compiler::fingerprint: fingerprint dirty for symphonia-codec-pcm v0.5.5/Check { test: false }/TargetInner { ..: lib_target("symphonia_codec_pcm", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/symphonia-codec-pcm-0.5.5/src/lib.rs", Edition2018) }
+   0.044484208s  INFO prepare_target{force=false package_id=symphonia-codec-pcm v0.5.5 target="symphonia_codec_pcm"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "symphonia_core", dep_mtime: FileTime { seconds: 1777671239, nanos: 375062097 }, max_mtime: FileTime { seconds: 1777671239, nanos: 367509121 } })
+   0.044592708s  INFO prepare_target{force=false package_id=symphonia-codec-vorbis v0.5.5 target="symphonia_codec_vorbis"}: cargo::core::compiler::fingerprint: fingerprint dirty for symphonia-codec-vorbis v0.5.5/Check { test: false }/TargetInner { ..: lib_target("symphonia_codec_vorbis", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/symphonia-codec-vorbis-0.5.5/src/lib.rs", Edition2018) }
+   0.044596041s  INFO prepare_target{force=false package_id=symphonia-codec-vorbis v0.5.5 target="symphonia_codec_vorbis"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "symphonia_utils_xiph", dep_mtime: FileTime { seconds: 1777671239, nanos: 401473200 }, max_mtime: FileTime { seconds: 1777671239, nanos: 369435125 } })
+   0.044740333s  INFO prepare_target{force=false package_id=symphonia-format-caf v0.5.5 target="symphonia_format_caf"}: cargo::core::compiler::fingerprint: fingerprint dirty for symphonia-format-caf v0.5.5/Check { test: false }/TargetInner { ..: lib_target("symphonia_format_caf", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/symphonia-format-caf-0.5.5/src/lib.rs", Edition2018) }
+   0.044743791s  INFO prepare_target{force=false package_id=symphonia-format-caf v0.5.5 target="symphonia_format_caf"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "symphonia_metadata", dep_mtime: FileTime { seconds: 1777671239, nanos: 398591193 }, max_mtime: FileTime { seconds: 1777671239, nanos: 383283532 } })
+   0.044914125s  INFO prepare_target{force=false package_id=symphonia-format-isomp4 v0.5.5 target="symphonia_format_isomp4"}: cargo::core::compiler::fingerprint: fingerprint dirty for symphonia-format-isomp4 v0.5.5/Check { test: false }/TargetInner { ..: lib_target("symphonia_format_isomp4", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/symphonia-format-isomp4-0.5.5/src/lib.rs", Edition2018) }
+   0.044917375s  INFO prepare_target{force=false package_id=symphonia-format-isomp4 v0.5.5 target="symphonia_format_isomp4"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "symphonia_metadata", dep_mtime: FileTime { seconds: 1777671239, nanos: 398591193 }, max_mtime: FileTime { seconds: 1777671239, nanos: 390149673 } })
+   0.045085833s  INFO prepare_target{force=false package_id=symphonia-format-mkv v0.5.5 target="symphonia_format_mkv"}: cargo::core::compiler::fingerprint: fingerprint dirty for symphonia-format-mkv v0.5.5/Check { test: false }/TargetInner { ..: lib_target("symphonia_format_mkv", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/symphonia-format-mkv-0.5.5/src/lib.rs", Edition2018) }
+   0.045088833s  INFO prepare_target{force=false package_id=symphonia-format-mkv v0.5.5 target="symphonia_format_mkv"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "symphonia_metadata", dep_mtime: FileTime { seconds: 1777671239, nanos: 398591193 }, max_mtime: FileTime { seconds: 1777671239, nanos: 390434674 } })
+   0.045246625s  INFO prepare_target{force=false package_id=symphonia-format-ogg v0.5.5 target="symphonia_format_ogg"}: cargo::core::compiler::fingerprint: fingerprint dirty for symphonia-format-ogg v0.5.5/Check { test: false }/TargetInner { ..: lib_target("symphonia_format_ogg", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/symphonia-format-ogg-0.5.5/src/lib.rs", Edition2018) }
+   0.045249916s  INFO prepare_target{force=false package_id=symphonia-format-ogg v0.5.5 target="symphonia_format_ogg"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "symphonia_metadata", dep_mtime: FileTime { seconds: 1777671239, nanos: 398591193 }, max_mtime: FileTime { seconds: 1777671239, nanos: 397145315 } })
+   0.045388583s  INFO prepare_target{force=false package_id=symphonia-format-riff v0.5.5 target="symphonia_format_riff"}: cargo::core::compiler::fingerprint: fingerprint dirty for symphonia-format-riff v0.5.5/Check { test: false }/TargetInner { ..: lib_target("symphonia_format_riff", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/symphonia-format-riff-0.5.5/src/lib.rs", Edition2018) }
+   0.045391833s  INFO prepare_target{force=false package_id=symphonia-format-riff v0.5.5 target="symphonia_format_riff"}: cargo::core::compiler::fingerprint:     dirty: FsStatusOutdated(StaleDependency { name: "symphonia_metadata", dep_mtime: FileTime { seconds: 1777671239, nanos: 398591193 }, max_mtime: FileTime { seconds: 1777671239, nanos: 397320149 } })
+   0.045568791s  INFO prepare_target{force=false package_id=zeroize v1.8.2 target="zeroize"}: cargo::core::compiler::fingerprint: fingerprint error for zeroize v1.8.2/Check { test: false }/TargetInner { ..: lib_target("zeroize", ["lib"], "/Users/guxinya/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/zeroize-1.8.2/src/lib.rs", Edition2021) }
+   0.045571916s  INFO prepare_target{force=false package_id=zeroize v1.8.2 target="zeroize"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/guxinya/Desktop/CS128H-Final-Project/target/debug/.fingerprint/zeroize-b3d2c56b955179e9/lib-zeroize`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: cargo::core::compiler::compile
+   7: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   8: cargo::ops::cargo_compile::compile_ws
+   9: cargo::ops::cargo_compile::compile_with_exec
+  10: cargo::ops::cargo_compile::compile
+  11: cargo::commands::check::exec
+  12: <cargo::cli::Exec>::exec
+  13: cargo::main
+  14: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  15: std::rt::lang_start::<()>::{closure#0}
+  16: std::rt::lang_start_internal
+  17: _main
+   0.045693666s  INFO prepare_target{force=false package_id=echosafe v0.1.0 (/Users/guxinya/Desktop/CS128H-Final-Project) target="echosafe"}: cargo::core::compiler::fingerprint: fingerprint error for echosafe v0.1.0 (/Users/guxinya/Desktop/CS128H-Final-Project)/Check { test: true }/TargetInner { name: "echosafe", doc: true, ..: with_path("/Users/guxinya/Desktop/CS128H-Final-Project/src/main.rs", Edition2021) }
+   0.045697458s  INFO prepare_target{force=false package_id=echosafe v0.1.0 (/Users/guxinya/Desktop/CS128H-Final-Project) target="echosafe"}: cargo::core::compiler::fingerprint:     err: failed to read `/Users/guxinya/Desktop/CS128H-Final-Project/target/debug/.fingerprint/echosafe-8815416f9b7be5e4/test-bin-echosafe`
+
+Caused by:
+    No such file or directory (os error 2)
+
+Stack backtrace:
+   0: std::backtrace::Backtrace::create
+   1: cargo_util::paths::read_bytes
+   2: cargo_util::paths::read
+   3: cargo::core::compiler::fingerprint::_compare_old_fingerprint
+   4: cargo::core::compiler::fingerprint::prepare_target
+   5: cargo::core::compiler::compile
+   6: <cargo::core::compiler::build_runner::BuildRunner>::compile
+   7: cargo::ops::cargo_compile::compile_ws
+   8: cargo::ops::cargo_compile::compile_with_exec
+   9: cargo::ops::cargo_compile::compile
+  10: cargo::commands::check::exec
+  11: <cargo::cli::Exec>::exec
+  12: cargo::main
+  13: std::sys::backtrace::__rust_begin_short_backtrace::<fn(), ()>
+  14: std::rt::lang_start::<()>::{closure#0}
+  15: std::rt::lang_start_internal
+  16: _main
+    Checking typenum v1.20.0
+    Checking subtle v2.6.1
+    Checking libc v0.2.186
+    Checking num-traits v0.2.19
+    Checking anstyle-parse v1.0.0
+    Checking zerocopy v0.8.48
+    Checking opaque-debug v0.3.1
+    Checking base64ct v1.8.3
+    Checking symphonia-format-riff v0.5.5
+    Checking symphonia-bundle-flac v0.5.5
+    Checking symphonia-codec-vorbis v0.5.5
+    Checking symphonia-format-isomp4 v0.5.5
+    Checking anstream v1.0.0
+    Checking symphonia-format-mkv v0.5.5
+    Checking symphonia-format-ogg v0.5.5
+    Checking symphonia-format-caf v0.5.5
+    Checking clap_builder v4.6.0
+    Checking symphonia-bundle-mp3 v0.5.5
+    Checking symphonia-codec-alac v0.5.5
+    Checking symphonia-codec-aac v0.5.5
+    Checking getrandom v0.2.17
+    Checking cpufeatures v0.2.17
+    Checking symphonia-codec-adpcm v0.5.5
+    Checking num-integer v0.1.46
+    Checking num-complex v0.4.6
+    Checking rand_core v0.6.4
+    Checking symphonia-codec-pcm v0.5.5
+    Checking zeroize v1.8.2
+    Checking generic-array v0.14.7
+    Checking password-hash v0.5.0
+    Checking transpose v0.2.3
+    Checking primal-check v0.3.4
+    Checking symphonia v0.5.5
+    Checking rustfft v6.4.1
+    Checking crypto-common v0.1.7
+    Checking inout v0.1.4
+    Checking block-buffer v0.10.4
+    Checking universal-hash v0.5.1
+    Checking aead v0.5.2
+    Checking digest v0.10.7
+    Checking cipher v0.4.4
+    Checking polyval v0.6.2
+    Checking blake2 v0.10.6
+    Checking ctr v0.9.2
+    Checking aes v0.8.4
+    Checking ghash v0.5.1
+    Checking argon2 v0.5.3
+    Checking aes-gcm v0.10.3
+    Checking clap v4.6.0
+    Checking realfft v3.5.0
+    Checking ppv-lite86 v0.2.21
+    Checking rand_chacha v0.3.1
+    Checking rand v0.8.6
+    Checking echosafe v0.1.0 (/Users/guxinya/Desktop/CS128H-Final-Project)
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 2.08s
