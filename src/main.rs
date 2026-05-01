@@ -356,22 +356,52 @@ fn compute_fft_and_get_frequencies(samples: &[f32], sample_rate: usize) -> Vec<(
 }
 
 // --- Spectral Terminal Display ---
-// Groups frequency data into Bass, Mid, and High bands for ASCII visualization.
+// Groups frequency data into multiple bands and displays relative energy in ASCII form.
 fn display_spectral_visualization(freqs: &[(f32, f32)]) {
+    const MAX_BAR_WIDTH: usize = 50;
     let bands = [
-        ("Bass", 0.0, 250.0),
-        ("Mid", 250.0, 4000.0),
-        ("High", 4000.0, 20000.0),
+        ("Sub", 20.0, 60.0),
+        ("Bass", 60.0, 250.0),
+        ("LowMid", 250.0, 500.0),
+        ("Mid", 500.0, 2_000.0),
+        ("HighMid", 2_000.0, 4_000.0),
+        ("High", 4_000.0, 20_000.0),
     ];
+
+    let band_levels: Vec<(&str, f32)> = bands
+        .iter()
+        .map(|(name, low, high)| {
+            let mut power_sum = 0.0;
+            let mut count = 0usize;
+
+            for (_, magnitude) in freqs.iter().filter(|(f, _)| *f >= *low && *f < *high) {
+                power_sum += magnitude * magnitude;
+                count += 1;
+            }
+
+            let average_power = if count > 0 {
+                power_sum / count as f32
+            } else {
+                0.0
+            };
+
+            (*name, average_power)
+        })
+        .collect();
+
+    let max_power = band_levels
+        .iter()
+        .map(|(_, power)| *power)
+        .fold(0.0_f32, f32::max)
+        .max(1e-12);
+
     println!("\n--- Spectral Analysis ---");
-    for (name, low, high) in bands {
-        let val: f32 = freqs
-            .iter()
-            .filter(|(f, _)| *f >= low && *f < high)
-            .map(|(_, m)| m)
-            .sum();
-        let bar = "█".repeat((val.min(50.0)) as usize);
-        println!("{:<5} | {}", name, bar);
+    for (name, power) in band_levels {
+        let normalized = (power / max_power).sqrt().clamp(0.0, 1.0);
+        let bar_len = (normalized * MAX_BAR_WIDTH as f32).round() as usize;
+        let relative_db = 10.0 * (power.max(1e-12) / max_power).log10();
+        let bar = "█".repeat(bar_len);
+        println!("{:<8} | {:<50} {:>6.1} dB", name, bar, relative_db);
     }
 }
 
