@@ -16,3 +16,7 @@ realfft = "3.3"
 num-complex = "0.4"
 # Additional utilities
 anyhow = "1.0"
+aes-gcm = "0.10"
+argon2 = "0.5"
+rand = "0.8"
+zeroize = "1.8"

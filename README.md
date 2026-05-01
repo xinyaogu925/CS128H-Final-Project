@@ -74,6 +74,17 @@ Final Submission (5/6)
 
 3. Conduct performance optimization using rayon for parallel processing.
 
+Current CLI Usage
+
+1. Process audio into WAV:
+   `cargo run -- process --input input.m4a --output processed.wav --normalize --fade 0.1`
+
+2. Encrypt the processed file:
+   `cargo run -- encrypt --input processed.wav --output processed.echo --password your-password`
+
+3. Decrypt it back into a playable WAV:
+   `cargo run -- decrypt --input processed.echo --output restored.wav --password your-password`
+
 Possible Challenges
 
 DSP Complexity: Implementing a clean Spectral Editing logic requires precise windowing and overlap-add methods in FFT to avoid audio artifacts.
